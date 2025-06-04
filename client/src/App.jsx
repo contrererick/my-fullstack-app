@@ -12,15 +12,18 @@ function App() {
     <>
       <Navbar />
       <Home /> 
-      <div>
+      <div class="project-banner border rounded">
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
+        <a href="https://getbootstrap.com" target="_blank">
+          <img src='https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png' className="logo react" alt="React logo" />
+        </a>
+        <h1>Vite + React + Bootstrap</h1>
       </div>
-      <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}

@@ -5,6 +5,15 @@
   text-align: center;
 }
 
+.project-banner{
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.project-banner.border{
+  border-color: rgb(0, 0, 0, 0.17) !important;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
